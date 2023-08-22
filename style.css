@@ -188,7 +188,7 @@
     .terminos {
         width: 80%;
         left: 10%;
-        top: 67%;
+        top: 63%;
     }
     .terminos p {
         font-size: 16px;
@@ -210,19 +210,17 @@
         padding: 1.8%;
     }
     .encriptado {
-        width: 80%;
+        width: 90%;
         height: 20%;
         left: 10%;
-        top: 78%;
+        top: 90%;
     }
 
-    .mensaje-encriptado p{
-        font-size: 15px;
-    }
     .mensaje-encriptado {
         width: 100%;
         top: 5%;
-    }
+        margin: -3%;
+    }    
     .encriptado img {
         top: 0;
         display: none;
