@@ -20,7 +20,7 @@ if (texto.length !=0) {
     muñeco.src = "./img/muneco.png";
     tituloMensaje.textContent = "Ningún mensaje fue encontrado"
     parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
-    alert("Debes ingresar algo de texto");
+    swal("Ooops!", "Debes ingresar algo de texto", "warning");
 }
 }
 
@@ -45,6 +45,6 @@ if (texto.length !=0) {
     muñeco.src = "./img/muneco.png";
     tituloMensaje.textContent = "Ningún mensaje fue encontrado"
     parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
-    alert("Debes ingresar algo de texto");
+    swal("Ooops!", "Debes ingresar algo de texto", "warning");
 }
 }
