@@ -5,11 +5,11 @@ function encriptar() {
     let muñeco = document.getElementById("muñeco");
 
     let textoCifrado = texto
-                         .replace(/e/gi, "enter")
-                         .replace(/i/gi, "imes")
-                         .replace(/a/gi, "ai")
-                         .replace(/o/gi, "ober")
-                         .replace(/u/gi, "ufat")
+                         .replace(/e/gi, "erbs")
+                         .replace(/i/gi, "ipr")
+                         .replace(/a/gi, "ambr")
+                         .replace(/o/gi, "oscr")
+                         .replace(/u/gi, "upad")
 
 if (texto.length !=0) {
     document.getElementById("texto").value = textoCifrado;
@@ -18,8 +18,8 @@ if (texto.length !=0) {
     muñeco.src = "./img/encriptado.png";
 } else {
     muñeco.src = "./img/muneco.png";
-    tituloMensaje.textContent = "Ningún mensaje fue encontrado"
-    parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
+    tituloMensaje.textContent = "Ningún mensaje encontrado"
+    parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar."
     swal("Ooops!", "Debes ingresar algo de texto", "warning");
 }
 }
@@ -30,11 +30,11 @@ function desencriptar() {
     let parrafo = document.getElementById("parrafo");
     let muñeco = document.getElementById("muñeco");
     let textoCifrado = texto
-                         .replace(/enter/gi, "i")
-                         .replace(/imes/gi, "i")
-                         .replace(/ai/gi, "a")
-                         .replace(/ober/gi, "o")
-                         .replace(/ufat/gi, "u")
+                         .replace(/erbs/gi, "e")
+                         .replace(/ipr/gi, "i")
+                         .replace(/ambr/gi, "a")
+                         .replace(/oscr/gi, "o")
+                         .replace(/upad/gi, "u")
 
 if (texto.length !=0) {
     document.getElementById("texto").value  = textoCifrado;
@@ -43,8 +43,8 @@ if (texto.length !=0) {
     muñeco.src = "./img/desencriptar.png";
 } else {
     muñeco.src = "./img/muneco.png";
-    tituloMensaje.textContent = "Ningún mensaje fue encontrado"
-    parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
+    tituloMensaje.textContent = "Ningún mensaje encontrado"
+    parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar."
     swal("Ooops!", "Debes ingresar algo de texto", "warning");
 }
 }
